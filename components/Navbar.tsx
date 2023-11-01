@@ -11,7 +11,7 @@ const Navbar = () => {
         max-w-screen-2x1 px-6 xs:px-8 sm:px-16 '>
             <Link href=''>
                 <Image 
-                className='absolute left-0 top-0 h-55 w-45 -top-6'
+                className='absolute left-0 top-0 h-55 w-45 -top-5'
                  src="/vinciLogo.svg" 
                 alt='logo'
                 width={85}
