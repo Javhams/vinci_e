@@ -25,6 +25,9 @@
               placeholder:text-white-800'
               type='text'
               placeholder='Search'
+              value={search}
+              onChange={(e) => setsearch(e.target.value)}
+              
             />
         </label>
      </form>
