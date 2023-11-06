@@ -1,20 +1,20 @@
 const schema = {
   name: 'resource',
-  title: 'title',
+  title: 'Resource',
   type: 'document',
   fields: [
     {
       name: 'title',
-      title: 'title',
+      title: 'Title',
       type: 'string',
       require,
       validation: (Rule: any) => Rule.required()
     },
     {
       name: 'slug',
-      title: 'slug',
+      title: 'Slug',
       type: 'slug',
-      option: {source: 'title'}
+      options: { source: 'title' }
     },
     {
       name: 'downloadLink',
@@ -24,27 +24,26 @@ const schema = {
     },
     {
       name: 'views',
-      title: 'title',
+      title: 'Views',
       type: 'number',
       initialValue: 0,
     },
     {
       name: 'poster',
-      title: 'poster',
+      title: 'Poster',
       type: 'image',
       validation: (Rule: any) => Rule.required(),
-      option: {
-        hotspot:true
+      options: {
+        hotspot: true,
       }
     },
     {
       name: 'category',
-      title: 'category',
+      title: 'Category',
       type: 'string',
       validation: (Rule: any) => Rule.required(),
-      option: {
-        list: ['frontend', 'backend', 'next 13',
-         'fullstack', 'other']
+      options: {
+        list: ['frontend', 'backend', 'next 13', 'fullstack', 'other']
       }
     }
   ]
