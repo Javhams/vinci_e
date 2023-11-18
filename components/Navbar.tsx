@@ -33,13 +33,13 @@ const Navbar = () => {
                 text-gradient_blue-purple !font-bold'>
                     <Link
                         href='https://google.com'>
-                        Next.js 13.4 Course
+                        Vinci resources
                     </Link>
                 </li>
                 <li className='body-text !font-normal'>
                     <Link
                         href='https://google.com'>
-                        MasterClass
+                        By Javier CP
                     </Link>
                 </li>
             </ul>
